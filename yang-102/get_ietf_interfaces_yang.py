@@ -11,12 +11,12 @@ import sys
 # access to a CSR1000V device running in the DevNet
 # Always On SandBox
 # use the IP address or hostname of your CSR1000V device
-HOST = '172.16.126.250'
+HOST = 'ios-xe-mgmt.cisco.com'
 # use the NETCONF port for your CSR1000V device
-PORT = 2022
+PORT = 10000
 # use the user credentials for your CSR1000V device
-USER = 'cisco'
-PASS = 'cisco'
+USER = 'root'
+PASS = 'C!sc0123'
 
 
 # create a main() method

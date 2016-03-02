@@ -6,12 +6,12 @@ import sys
 # the variables below assume the user is requesting access
 # to a IOS-XE device running in the DevNet Always On SandBox
 # use the IP address or hostname of your IOS-XE device
-HOST = '172.16.126.250'
+HOST = 'ios-xe-mgmt.cisco.com'
 # use the NETCONF port for your IOS-XE device
-PORT = 2022
+PORT = 10000
 # use the user credentials for your IOS-XE device
-USER = 'cisco'
-PASS = 'cisco'
+USER = 'root'
+PASS = 'C!sc0123'
 
 
 # create a main() method
